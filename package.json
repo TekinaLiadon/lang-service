@@ -1,0 +1,22 @@
+{
+  "name": "Lang-service",
+  "version": "1.0.50",
+  "scripts": {
+    "dev": "bun run --watch 01-app/index.ts",
+    "start": "NODE_ENV=production bun 01-app/index.ts",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@elysiajs/swagger": "^0.8.5",
+    "elysia": "latest",
+    "google-auth-library": "^9.6.3",
+    "google-spreadsheet": "^4.1.1",
+    "lodash.uniq": "^4.5.0",
+    "xlsx": "^0.18.5",
+    "redis": "^4.6.13"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "module": true
+}
